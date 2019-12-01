@@ -1,0 +1,107 @@
+.topnav{
+    height: 100px;
+    width: 100%
+}
+
+
+.topnav-logo{
+    float: left;
+    width: 249px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.topnav-search{
+    float: left;
+    margin-left: 250px;
+    margin-top: 36px;
+    width: 563px;
+    height:38px ;
+    border: 2px  solid #dedede;
+    box-sizing: border-box;
+}
+
+.topnav-search-input input{
+    float: left;
+    width: 524px;
+    height: 34px;
+    border: none;
+    font-size: 16px;
+    color: #999;
+}
+
+.topnav-search i{
+    float: right;
+    width: 35px;
+    height: 34px;
+    background-color: #3b99fc;
+    color: #fff;
+    font-size: 20px;
+   line-height: 34px;
+   text-align: center;
+}
+
+.topnav-right {
+    float: left;
+    margin-left: 216px;
+    margin-top: 48px;
+    
+}
+
+.topnav-right .wenzi span{
+    font-size: 16px;
+    color: #70b3fb;
+}
+
+.topnav-right .font{
+    margin-left: 84px;
+    margin-top: -20px;
+    color: #3b99fc;
+}
+
+.topnav-right .font2{
+    margin-left: 106px;
+    margin-top: -17px;
+    color: #3b99fc;
+}
+
+.topnav-right .zui{
+    margin-left: 128px;
+    margin-top: -17px;
+    font-size: 14px;
+}
+
+
+/* 头部 */
+.header{
+    height: 50px;
+    background-color: #3b99fc;
+}
+
+.header .first{
+    float: left;
+    width: 181px;
+    height: 50px;
+    background-color: #2676e3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 50px;
+}
+
+.header .gege{
+    float: left;
+   width: 181px ;
+   height: 50px;
+   color: #fff;
+   font-size: 18px;
+   font-weight: normal;
+   text-align: center;
+   line-height: 50px;
+}
+
+.header .gege:hover{
+    background-color: rgb(54, 133, 236);
+}
+
