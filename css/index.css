@@ -53,6 +53,10 @@
     color: #70b3fb;
 }
 
+
+
+
+
 .topnav-right .font{
     margin-left: 84px;
     margin-top: -20px;
@@ -139,11 +143,15 @@
     width: 125px;
     height: 144px;
     border-left: 4px solid #3b99fc;
-    color: #3b99fc;
     font-size: 18px;
    /* text-align: center; */
    line-height: 144px;
    box-sizing: border-box;
+}
+
+.banner-middle-left .small span,
+.banner-middle-left .small  i {
+    color: #3b99fc;
 }
 
 
@@ -155,10 +163,14 @@
     border-left: 4px solid #3b99fc;
     font-size: 18px;
     line-height: 144px;
-    color: #fff;
     background-color: #3b99fc;
     border-bottom: 2px solid #a2a2a2;
     box-sizing: border-box;
+}
+
+.banner-middle-left .small1  span,
+.banner-middle-left .small1  i{
+    color: #fff;
 }
 
 .banner-middle-left .small2 {
@@ -167,10 +179,14 @@
     border-left: 4px solid #3b99fc;
     font-size: 18px;
     line-height: 144px;
-    color: #fff;
     background-color: #3b99fc;
     /* border-bottom: 1px solid #a2a2a2; */
     box-sizing: border-box;
+}
+
+.banner-middle-left .small2 span,
+.banner-middle-left .small2 i{
+     color: #fff;
 }
 
 .banner-middle-right{
@@ -190,11 +206,15 @@
     width: 113px;
     height: 30px;
     margin-top: 50px;
-    color: #3b99fc;
     border-bottom: 2px solid #3b99fc;
     text-align: center;
     font-size: 16px;
     box-sizing: border-box;
+}
+
+.banner-middle-right-top .right span,
+.banner-middle-right-top .right i{
+    color: #3b99fc;
 }
 
 .banner-middle-right-top .right1{
@@ -202,11 +222,15 @@
     width: 113px;
     height: 30px;
     margin-top: 50px;
-    color: #a2a2a2;
     border-bottom: 2px solid #a2a2a2;
     text-align: center;
     font-size: 16px;
     box-sizing: border-box;
+}
+
+.banner-middle-right-top .right1 span,
+.banner-middle-right-top .right1 i{
+    color: #a2a2a2;
 }
 
 .banner-middle-right-top .right2{
@@ -214,14 +238,16 @@
     width: 113px;
     height: 30px;
     margin-top: 50px;
-    color: #a2a2a2;
     border-bottom: 2px solid #a2a2a2;
     text-align: center;
     font-size: 16px;
     box-sizing: border-box;
 }
 
-
+.banner-middle-right-top .right2  span,
+.banner-middle-right-top .right2 i{
+    color: #a2a2a2;
+}
 
 .banner-middle-right-top .right i{
     width: 17px;
@@ -351,6 +377,10 @@
     /* border-right:3px solid #eff5fe ; */
 }
 
+.menu .each:hover i{
+color: rgb(117, 171, 251);
+}
+
 .menu .each i{
     display: block;
     text-align: center;
@@ -442,6 +472,10 @@ border-bottom: 2px solid #dedede;
     overflow: hidden;
 }
 
+.show-bottom-small p:hover{
+    color: #3b99fc;
+}
+
 .show-bottom-small span{
     font-size: 20px;
     color: #ff8201;
@@ -456,6 +490,7 @@ border-bottom: 2px solid #dedede;
     height: 374px;
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 .sale .sale-top{
@@ -469,11 +504,14 @@ border-bottom: 2px solid #dedede;
     width: 484px;
     height: 50px;
     background-color: #3b99fc;
-    color: #fff;
-    font-size: 18px;
     text-align: center;
     line-height: 50px;
     margin-right: 12px;
+}
+
+.sale .sale-top .one a span{
+    color: #fff;
+    font-size: 18px;
 }
 
 .sale .sale-top .two{
@@ -489,6 +527,198 @@ border-bottom: 2px solid #dedede;
 }
 
 .sale .sale-bottom{
+    float: left;
     height: 322px;
+    width: 99%;
     border: 2px solid #dedede;
 }
+
+.sale-bottom .one{
+    float: left;
+    width: 755px;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+
+
+
+.sale-bottom .one li p{
+    width: 550px;
+    float: left;
+    font-size: 16px;
+    /* line-height: 15px; */
+    margin-left: 40px;
+     margin-top: 30px;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     color: #333;
+}
+
+
+.sale-bottom .one span{
+    float: right;
+    font-size: 16px;
+    margin-right: 40px;
+    margin-top: 30px;
+    color: #999;
+}
+
+
+
+.sale-bottom .two li p{
+    width: 550px;
+    float: left;
+    font-size: 16px;
+    /* line-height: 15px; */
+    margin-left: 40px;
+     margin-top: 30px;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     color: #333;
+}
+
+
+.sale-bottom .two span{
+    float: right;
+    font-size: 16px;
+    margin-right: 40px;
+    margin-top: 30px;
+    color: #999;
+}
+
+
+
+/* 8.底部 */
+.footer{
+    background-color: #f8f8f8;
+    height: 245px;
+}
+
+.footer-left {
+    float: left;
+    width: 621px;
+    height: 245px;
+}
+.footer .footer-left .footer-left-top h2{
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    margin-left: 68px;
+    margin-top: 47px;
+    margin-bottom: 26px;
+}
+
+.footer-left-bottom{
+    margin-left: 68px;
+}
+
+.footer .footer-left .footer-left-bottom img{
+    width: 248px;
+    height: 40px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+
+}
+
+
+
+.footer-right {
+    float: right;
+    width: 865px;
+    height: 245px;
+    
+  
+}
+
+.footer-right .footer-right-top{
+    float: left;
+    margin-top: 47px;
+    height: 40px;
+    width: 100%;
+    color: #333;
+}
+
+.footer-right .footer-right-top span{
+    font-size: 16px;
+    margin-top: 25px;
+    
+}
+
+.footer-right .footer-right-top .one{
+margin-left: 9px;
+}
+
+.footer-right .footer-right-top .two{
+margin-left: 21px;
+}
+
+.footer-right .footer-right-top .three{
+    margin-left: 38px;
+}
+
+.footer-right .footer-right-top .four{
+    margin-left: 65px;
+}
+
+.footer-right .footer-right-bottom img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+
+.footer-right .footer-right-bottom  .one{
+    margin-left: 19px;
+}
+
+.footer-right .footer-right-bottom  .two{
+    margin-left: 56px;
+}
+
+.footer-right .footer-right-bottom  .three{
+    margin-left: 56px;
+}
+
+.footer-right .footer-right-bottom  .four{
+    margin-left: 56px;
+}
+
+.footer-right .zui{
+    float: right;
+    width: 230px;
+    height: 100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border: 2px solid #e6e6e6;
+    box-sizing: border-box;
+    border
+}
+
+.footer-right .zui p{
+    font-size: 14px;
+    margin-top:20px ;
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+
+/* 9.底部商标 */
+.brand{
+    background-color: #666;
+    height:100px ;
+    color:#c1c1c1 ;
+    /* overflow: hidden; */
+   
+    
+}
+
+.brand .middle {
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 22px;
+}
+
