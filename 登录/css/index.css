@@ -1,0 +1,314 @@
+.topnav{
+height:120px ;
+width: 100%;
+}
+
+
+.topnav .logo{
+    float: left;
+    width: 300px;
+    height: 72px;
+    margin-top: 24px;
+}
+
+.topnav .word{
+    float: left;
+    font-size: 26px;
+    color: #333;
+    margin-left: 60px;
+    margin-top: 46px;
+    font-weight: normal;
+}
+
+
+
+/* 2.内容 */
+.banner{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.banner .picture img{
+    width:1900px ;
+    height: 600px;
+}
+.picture{
+    background-color: #b1dff7;
+}
+
+.middle{
+    position: absolute;
+    top: -564px;
+    right: 180px;
+    width: 355px;
+    height: 473px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.banner-middle-top{
+    float: left;
+    width: 355px;
+    height:87px;
+}
+
+.banner-middle-top .one{
+    float: left;
+    font-size: 18px;
+    color: #3b99fc;
+    width: 177.5px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    border-right: 2px solid #dedede;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.banner-middle-top .two{
+    float: left;
+    font-size: 18px;
+    color: #666;
+    width: 177.5px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    margin-top: 30px;
+}
+
+.banner-middle-top .two:hover{
+    color: #3b99fc;
+}
+
+
+.middle .banner-middle-middle .picture1 img{
+    width: 150px;
+    height: 150px;
+    margin-left: 102.5px;
+    margin-top: 20px;
+}
+
+.banner-middle-middle{
+    float: left;
+    width: 100%;
+    height: 250px;
+}
+
+.banner-middle-middle .one{
+   margin-left: 84px;
+   margin-top: 20px;
+}
+
+.banner-middle-middle .one span{
+    font-size: 14px;
+}
+
+.banner-middle-middle .one s{
+    color: #3b99fc;
+}
+
+
+.banner-middle-middle .two{
+    margin-left: 134px;
+    margin-top: 20px;
+ }
+ 
+ .banner-middle-middle .two span{
+     font-size: 14px;
+     color: #3b99fc;
+ }
+
+ .banner-middle2{
+     float: left;
+     height:57px ;
+     width: 100%;
+ }
+
+ .banner-middle2 .first{
+     float: left;
+     font-size: 14px;
+     color: #999;
+     margin-left: 33px;
+     line-height: 57px;
+ }
+ .banner-middle2 .first i{
+     width: 20px;
+     height: 20px;
+     border: 1px solid #dcdcdc;
+     border-radius: 50%;
+     color: #dcdcdc;
+ }
+
+
+ .banner-middle2 .second{
+     float: left;
+     font-size: 14px;
+     color: #999;
+     margin-left: 40px;
+     line-height: 57px;
+ }
+ .banner-middle2 .second  i{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+    color: #dcdcdc;
+ }
+
+ .banner-middle2 .third{
+    float: left;
+    font-size: 14px;
+    color: #999;
+    margin-left: 45px;
+    line-height: 57px;
+ }
+ .banner-middle2 .third i{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+    color: #dcdcdc;
+ }
+
+ hr{
+     color: #dedede;
+ }
+
+ .banner-moddle-bottom {
+    padding: 10px 20px 15px;
+    font-size: 12px;
+    color: #787878;
+  
+ }
+
+
+
+ /* 3.底部 */
+.footer{
+    background-color: #f8f8f8;
+    height: 245px;
+}
+
+.footer-left {
+    float: left;
+    width: 621px;
+    height: 245px;
+}
+.footer .footer-left .footer-left-top h2{
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    margin-left: 68px;
+    margin-top: 47px;
+    margin-bottom: 26px;
+}
+
+.footer-left-bottom{
+    margin-left: 68px;
+}
+
+.footer .footer-left .footer-left-bottom img{
+    width: 248px;
+    height: 40px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+
+}
+
+
+
+.footer-right {
+    float: right;
+    width: 865px;
+    height: 245px;
+    
+  
+}
+
+.footer-right .footer-right-top{
+    float: left;
+    margin-top: 47px;
+    height: 40px;
+    width: 100%;
+    color: #333;
+}
+
+.footer-right .footer-right-top span{
+    font-size: 16px;
+    margin-top: 25px;
+    
+}
+
+.footer-right .footer-right-top .one{
+margin-left: 9px;
+}
+
+.footer-right .footer-right-top .two{
+margin-left: 21px;
+}
+
+.footer-right .footer-right-top .three{
+    margin-left: 38px;
+}
+
+.footer-right .footer-right-top .four{
+    margin-left: 65px;
+}
+
+.footer-right .footer-right-bottom img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+
+.footer-right .footer-right-bottom  .one{
+    margin-left: 19px;
+}
+
+.footer-right .footer-right-bottom  .two{
+    margin-left: 56px;
+}
+
+.footer-right .footer-right-bottom  .three{
+    margin-left: 56px;
+}
+
+.footer-right .footer-right-bottom  .four{
+    margin-left: 56px;
+}
+
+.footer-right .zui{
+    float: right;
+    width: 230px;
+    height: 100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border: 2px solid #e6e6e6;
+    box-sizing: border-box;
+    border
+}
+
+.footer-right .zui p{
+    font-size: 14px;
+    margin-top:20px ;
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+
+/* 4.底部商标 */
+ .brand{
+    background-color: #666;
+    height:100px ;
+    color:#c1c1c1 ;
+}
+
+.brand .foot {
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 22px;
+} 
+
