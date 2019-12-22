@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="iconfont.css">
+    <meta name="description"
+        content="游侠客是旅行者的社交网络, 全国30多个分站,600多万注册会员.以做个性化深度游和摄影游的独创线路闻名.游侠客旅游网旗下拥有自己的品牌旅行社、户外俱乐部和摄影协会!">
+    <meta name="keywords" content="游侠客,游侠客旅游网,游侠客摄影网,旅游,旅游网,杭州游侠客,深度旅游,摄影旅游,亲子游,杭州户外俱乐部,上海户外俱乐部,成都户外俱乐部">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        body {
+            background-color: #2c2c2c;
+        }
+
+        /* 导航部分 */
+        .topnav {
+            width: 100%;
+            height: 38px;
+            border-bottom: 1px solid #2c2c2c;
+            background-color: #2c2c2c;
+        }
+
+        /* 导航部分的左边 */
+        .topnav-left {
+            float: left;
+        }
+
+        /* a标签中的样式 */
+        .topnav-left a {
+            float: left;
+            color: #cbcbcb;
+            line-height: 38px;
+            /* 上下距离0   左右距离10px */
+            margin: 0 10px;
+
+        }
+
+        /* 鼠标上去变色 */
+        .topnav-left a:hover {
+            color: #ff9d00;
+        }
+
+        /* 导航部分右边 */
+        .topnav-right {
+            float: right;
+        }
+
+        /* 让里面部分左浮 */
+        .topnav-right li {
+            float: left;
+        }
+
+        /* 给右边里面的li标签和span标签添加样式 */
+        .topnav-right a,
+        .topnav-right span {
+            line-height: 38px;
+            color: #ccc;
+            margin: 0 10px;
+        }
+
+        .topnav a:hover {
+            color: #ff9d00;
+        }
+
+        .topnav-right i {
+            font-size: 22px;
+        }
+
+        .topnav-right .app {
+            display: block;
+        }
+
+        .topnav-right .app span {
+            float: right;
+            margin: 0;
+            line-height: 36px;
+        }
+
+        .topnav-right .app:hover span {
+            color: #ff9d00;
+        }
+
+        .topnav-right .app i {
+            color: #fdd000;
+        }
+
+        .topnav-right img {
+            display: none;
+            position: absolute;
+            top: 12px;
+            left: -64px;
+        }
+
+        .topnav-right a:hover img {
+            display: block;
+        }
+
+        .topnav-right li:nth-last-child(-n+3) a:hover i {
+            color: #fdd000;
+        }
+
+        .topnav-right li:last-child img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 顶部导航 -->
+    <div class="topnav">
+        <div class="container">
+            <!-- 导航左边 -->
+            <div class="topnav-left">
+                <a href="#">登录</a>
+                <a href="#">注册</a>
+                <a href="#">
+                    <img src="./gift_new.gif" alt="">
+                </a>
+            </div>
+            <!-- 导航右边 -->
+            <ul class="topnav-right">
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><span>我的游侠客</span></li>
+                <li><a href="" class="app"><i class="iconfont">&#xe604;</i><span>手机APP</span></a></li>
+                <li><a href=""><i class="iconfont">&#xe709;</i> </a></li>
+                <li><a href=""><i class="iconfont">&#xe63e;</i></a></li>
+                <li><a href=""><i class="iconfont">&#xe61e;</i></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
