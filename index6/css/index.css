@@ -1,27 +1,27 @@
-.topnav{
+.topnav {
     height: 100px;
     width: 100%
 }
 
 
-.topnav-logo{
+.topnav-logo {
     float: left;
     width: 249px;
     height: 60px;
     margin-top: 20px;
 }
 
-.topnav-search{
+.topnav-search {
     float: left;
     margin-left: 250px;
     margin-top: 36px;
     width: 563px;
-    height:38px ;
-    border: 2px  solid #dedede;
+    height: 38px;
+    border: 2px solid #dedede;
     box-sizing: border-box;
 }
 
-.topnav-search-input input{
+.topnav-search-input input {
     float: left;
     width: 524px;
     height: 34px;
@@ -30,25 +30,25 @@
     color: #999;
 }
 
-.topnav-search i{
+.topnav-search i {
     float: right;
     width: 35px;
     height: 34px;
     background-color: #3b99fc;
     color: #fff;
     font-size: 20px;
-   line-height: 34px;
-   text-align: center;
+    line-height: 34px;
+    text-align: center;
 }
 
 .topnav-right {
     float: left;
     margin-left: 216px;
     margin-top: 48px;
-    
+
 }
 
-.topnav-right .wenzi span{
+.topnav-right .wenzi span {
     font-size: 16px;
     color: #70b3fb;
 }
@@ -57,19 +57,19 @@
 
 
 
-.topnav-right .font{
+.topnav-right .font {
     margin-left: 84px;
     margin-top: -20px;
     color: #3b99fc;
 }
 
-.topnav-right .font2{
+.topnav-right .font2 {
     margin-left: 106px;
     margin-top: -17px;
     color: #3b99fc;
 }
 
-.topnav-right .zui{
+.topnav-right .zui {
     margin-left: 128px;
     margin-top: -17px;
     font-size: 14px;
@@ -77,12 +77,12 @@
 
 
 /* 头部 */
-.header{
+.header {
     height: 50px;
     background-color: #3b99fc;
 }
 
-.header .first{
+.header .first {
     float: left;
     width: 181px;
     height: 50px;
@@ -96,86 +96,248 @@
 
 
 
-.header .gege{
+.header .gege {
     float: left;
-   width: 181px ;
-   height: 50px;
-   color: #fff;
-   font-size: 18px;
-   font-weight: normal;
-   text-align: center;
-   line-height: 50px;
+    width: 181px;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 50px;
 }
 
-.header .gege:hover{
+.header .gege:hover {
     background-color: rgb(54, 133, 236);
 }
 
 
 
 /* 3.内容 */
-.banner{
-    height: 1389px;
+.banner {
+    position: relative;
+    height: 1100px;
     margin-top: 20px;
+
 }
 
-.banner .banner-left-top{
+.banner-left {
+    width: 400px;
+}
+
+.banner .banner-left-top {
     width: 400px;
     height: 55px;
     /* 渐变 */
-        background: -moz-linear-gradient(top, #fff 0%, #489fe2 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#489fe2));
-        background: -webkit-linear-gradient(top, #fff 0%, #489fe2 100%);
-        background: -o-linear-gradient(top, #fff 0%, #489fe2 100%);
-        background: -ms-linear-gradient(top, #fff 0%, #489fe2 100%);
-        background: linear-gradient(to bottom,  #fff 0%, #489fe2 100%);
-        text-align: center;
+    background: -moz-linear-gradient(top, #fff 0%, #489fe2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #489fe2));
+    background: -webkit-linear-gradient(top, #fff 0%, #489fe2 100%);
+    background: -o-linear-gradient(top, #fff 0%, #489fe2 100%);
+    background: -ms-linear-gradient(top, #fff 0%, #489fe2 100%);
+    background: linear-gradient(to bottom, #fff 0%, #489fe2 100%);
+    text-align: center;
     text-align: center;
     line-height: 55px;
 }
 
-.banner .banner-left-top span{
+.banner .banner-left-top span {
     font-size: 22px;
     color: #333;
     font-weight: normal;
 }
 
-.banner .banner-left-bottom{
+.banner .banner-left-bottom {
     width: 400px;
-    height: 1335px;
+    height: 1000px;
     background-color: #d3edfd;
     border: 1px solid #fff;
     box-sizing: border-box;
 }
 
-.banner .banner-left-bottom li{
+.banner .banner-left-bottom li {
     /* float: left; */
     font-size: 20px;
 }
 
-.banner .banner-left-bottom .one{
+.banner .banner-left-bottom .one {
     float: left;
     margin-left: 40px;
     line-height: 42px;
 }
 
-.banner .banner-left-bottom .one img{
+.banner .banner-left-bottom .one img {
     margin-right: 20px;
 }
 
-.banner .banner-left-bottom .two{
+.banner .banner-left-bottom .two {
     float: right;
     margin-right: 40px;
     line-height: 42px;
 }
-.banner .banner-left-bottom .two img{
+
+.banner .banner-left-bottom .two img {
     margin-right: 20px;
 }
 
-/* .banner-right{
-    float: right;
+.banner-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1000px;
+
+
 }
 
-.banner .banner-right-top{
+.banner .banner-right-top {
+    position: absolute;
+    float: left;
+    left: 0;
+    top: 0;
+    margin-top: 9px;
+    margin-left: -55px;
+    width: 800px;
+    height: 40px;
+    border: 1px solid #3b99fc;
+    line-height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+
+.banner .banner-right .bottom {
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+
+/* 8.底部 */
+.footer {
+    background-color: #f8f8f8;
+    height: 245px;
+}
+
+.footer-left {
+    float: left;
+    width: 621px;
+    height: 245px;
+}
+
+.footer .footer-left .footer-left-top h2 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    margin-left: 68px;
+    margin-top: 47px;
+    margin-bottom: 26px;
+}
+
+.footer-left-bottom {
+    margin-left: 68px;
+}
+
+.footer .footer-left .footer-left-bottom img {
+    width: 248px;
+    height: 40px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+
+}
+
+
+
+.footer-right {
     float: right;
-} */
+    width: 865px;
+    height: 245px;
+
+
+}
+
+.footer-right .footer-right-top {
+    float: left;
+    margin-top: 47px;
+    height: 40px;
+    width: 100%;
+    color: #333;
+}
+
+.footer-right .footer-right-top span {
+    font-size: 16px;
+    margin-top: 25px;
+
+}
+
+.footer-right .footer-right-top .one {
+    margin-left: 9px;
+}
+
+.footer-right .footer-right-top .two {
+    margin-left: 21px;
+}
+
+.footer-right .footer-right-top .three {
+    margin-left: 38px;
+}
+
+.footer-right .footer-right-top .four {
+    margin-left: 65px;
+}
+
+.footer-right .footer-right-bottom img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+
+.footer-right .footer-right-bottom .one {
+    margin-left: 19px;
+}
+
+.footer-right .footer-right-bottom .two {
+    margin-left: 56px;
+}
+
+.footer-right .footer-right-bottom .three {
+    margin-left: 56px;
+}
+
+.footer-right .footer-right-bottom .four {
+    margin-left: 56px;
+}
+
+.footer-right .zui {
+    float: right;
+    width: 230px;
+    height: 100px;
+    background-color: #fff;
+    margin-left: 20px;
+    border: 2px solid #e6e6e6;
+    box-sizing: border-box;
+    /* border */
+}
+
+.footer-right .zui p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+
+/* 9.底部商标 */
+.brand {
+    background-color: #666;
+    height: 100px;
+    color: #c1c1c1;
+    /* overflow: hidden; */
+
+
+}
+
+.brand .middle {
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 22px;
+}
