@@ -1,27 +1,27 @@
-.topnav{
+.topnav {
     height: 100px;
     width: 100%
 }
 
 
-.topnav-logo{
+.topnav-logo {
     float: left;
     width: 249px;
     height: 60px;
     margin-top: 20px;
 }
 
-.topnav-search{
+.topnav-search {
     float: left;
     margin-left: 250px;
     margin-top: 36px;
     width: 563px;
-    height:38px ;
-    border: 2px  solid #dedede;
+    height: 38px;
+    border: 2px solid #dedede;
     box-sizing: border-box;
 }
 
-.topnav-search-input input{
+.topnav-search-input input {
     float: left;
     width: 524px;
     height: 34px;
@@ -30,26 +30,26 @@
     color: #999;
 }
 
-.topnav-search i{
+.topnav-search i {
     float: right;
     width: 35px;
     height: 34px;
     background-color: #3b99fc;
     color: #fff;
     font-size: 20px;
-   line-height: 34px;
-   text-align: center;
-   box-sizing: border-box;
+    line-height: 34px;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .topnav-right {
     float: left;
     margin-left: 216px;
     margin-top: 48px;
-    
+
 }
 
-.topnav-right .wenzi span{
+.topnav-right .wenzi span {
     font-size: 16px;
     color: #70b3fb;
 }
@@ -58,19 +58,19 @@
 
 
 
-.topnav-right .font{
+.topnav-right .font {
     margin-left: 84px;
     margin-top: -20px;
     color: #3b99fc;
 }
 
-.topnav-right .font2{
+.topnav-right .font2 {
     margin-left: 106px;
     margin-top: -17px;
     color: #3b99fc;
 }
 
-.topnav-right .zui{
+.topnav-right .zui {
     margin-left: 128px;
     margin-top: -17px;
     font-size: 14px;
@@ -78,12 +78,12 @@
 
 
 /* 头部 */
-.header{
+.header {
     height: 50px;
     background-color: #3b99fc;
 }
 
-.header .first{
+.header .first {
     float: left;
     width: 181px;
     height: 50px;
@@ -95,18 +95,18 @@
     line-height: 50px;
 }
 
-.header .gege{
+.header .gege {
     float: left;
-   width: 181px ;
-   height: 50px;
-   color: #fff;
-   font-size: 18px;
-   font-weight: normal;
-   text-align: center;
-   line-height: 50px;
+    width: 181px;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 50px;
 }
 
-.header .gege:hover{
+.header .gege:hover {
     background-color: rgb(54, 133, 236);
 }
 
@@ -114,30 +114,30 @@
 
 /* 3.轮播图 */
 
-.banner{
+.banner {
     position: relative;
 }
 
-.banner .photo img{
+.banner .photo img {
     width: 100%;
     height: 563px;
 }
 
 
-.banner-middle{
+.banner-middle {
     position: absolute;
     width: 638px;
     height: 432px;
     border: 1px solid #d5edf8;
-    top:-500px;
+    top: -500px;
     left: 0px;
     background-color: #fff;
 }
 
-.banner-middle-left{
+.banner-middle-left {
     float: left;
     width: 125px;
-    height:438px ;
+    height: 438px;
 }
 
 .banner-middle-left .small {
@@ -145,13 +145,13 @@
     height: 144px;
     border-left: 4px solid #3b99fc;
     font-size: 18px;
-   /* text-align: center; */
-   line-height: 144px;
-   box-sizing: border-box;
+    /* text-align: center; */
+    line-height: 144px;
+    box-sizing: border-box;
 }
 
 .banner-middle-left .small span,
-.banner-middle-left .small  i {
+.banner-middle-left .small i {
     color: #3b99fc;
 }
 
@@ -169,8 +169,8 @@
     box-sizing: border-box;
 }
 
-.banner-middle-left .small1  span,
-.banner-middle-left .small1  i{
+.banner-middle-left .small1 span,
+.banner-middle-left .small1 i {
     color: #fff;
 }
 
@@ -186,23 +186,23 @@
 }
 
 .banner-middle-left .small2 span,
-.banner-middle-left .small2 i{
-     color: #fff;
+.banner-middle-left .small2 i {
+    color: #fff;
 }
 
-.banner-middle-right{
+.banner-middle-right {
     float: right;
     width: 513px;
     height: 100%;
 }
 
-.banner-middle-right-top{
+.banner-middle-right-top {
     height: 82px;
     width: 100%;
-   margin-left: 25px;
+    margin-left: 25px;
 }
 
-.banner-middle-right-top .right{
+.banner-middle-right-top .right {
     float: left;
     width: 113px;
     height: 30px;
@@ -214,11 +214,11 @@
 }
 
 .banner-middle-right-top .right span,
-.banner-middle-right-top .right i{
+.banner-middle-right-top .right i {
     color: #3b99fc;
 }
 
-.banner-middle-right-top .right1{
+.banner-middle-right-top .right1 {
     float: left;
     width: 113px;
     height: 30px;
@@ -230,11 +230,11 @@
 }
 
 .banner-middle-right-top .right1 span,
-.banner-middle-right-top .right1 i{
+.banner-middle-right-top .right1 i {
     color: #a2a2a2;
 }
 
-.banner-middle-right-top .right2{
+.banner-middle-right-top .right2 {
     float: left;
     width: 113px;
     height: 30px;
@@ -245,19 +245,19 @@
     box-sizing: border-box;
 }
 
-.banner-middle-right-top .right2  span,
-.banner-middle-right-top .right2 i{
+.banner-middle-right-top .right2 span,
+.banner-middle-right-top .right2 i {
     color: #a2a2a2;
 }
 
-.banner-middle-right-top .right i{
+.banner-middle-right-top .right i {
     width: 17px;
     height: 17px;
     border: 1px solid #3b99fc;
     border-radius: 50%;
 }
 
-.banner-middle-right-top .right1 i{
+.banner-middle-right-top .right1 i {
     width: 17px;
     height: 17px;
     border: 1px solid #a2a2a2;
@@ -268,44 +268,45 @@
     /* float: right; */
     /* text-align: right; */
     margin-top: 20px;
-   
+
 }
 
-.banner-middle-right-bottom.banner-middle-right span{
+.banner-middle-right-bottom.banner-middle-right span {
     font-size: 14px;
 }
 
 .banner-middle-right .banner-middle-right-bottom .bottom1,
-.banner-middle-right .banner-middle-right-bottom .bottom{
+.banner-middle-right .banner-middle-right-bottom .bottom {
     float: right;
     margin-top: 15px;
-    margin-left:62px ;
+    margin-left: 62px;
     font-size: 16px;
     text-align: right;
     margin-right: 60px;
-    width:420px ;
+    width: 420px;
     height: 43px;
 }
 
-.banner-middle-right .banner-middle-right-bottom input{
-    width:315px ;
+.banner-middle-right .banner-middle-right-bottom input {
+    width: 315px;
     height: 38px;
     margin-left: 4px;
     text-align: left;
 }
-.banner-middle-right-bottom  > .bottom{
-    position: relative;
-} 
 
-.banner-middle-right .banner-middle-right-bottom  .bottom i{
+.banner-middle-right-bottom>.bottom {
+    position: relative;
+}
+
+.banner-middle-right .banner-middle-right-bottom .bottom i {
     position: absolute;
     top: 12px;
     right: 12px;
     color: #dcdcdc;
     font-size: 18px;
-} 
+}
 
-.banner-middle-right .banner-middle-right-bottom  .bottom1 i{
+.banner-middle-right .banner-middle-right-bottom .bottom1 i {
     position: absolute;
     top: 244px;
     right: 72px;
@@ -313,15 +314,15 @@
     font-size: 18px;
 }
 
-.banner-middle-right .banner-middle-right-bottom .bottom1 input{
-    width:315px ;
+.banner-middle-right .banner-middle-right-bottom .bottom1 input {
+    width: 315px;
     height: 38px;
     margin-left: 4px;
 }
 
 
 
-.banner-middle-right .change i{
+.banner-middle-right .change i {
     position: absolute;
     top: 157px;
     right: 22px;
@@ -336,23 +337,23 @@
     color: #fff;
 }
 
-.banner-middle-right .text{
+.banner-middle-right .text {
     height: 50px;
     font-size: 14px;
     text-align: center;
     line-height: 50px;
-   
+
 }
 
-.banner-middle-right .text input{
+.banner-middle-right .text input {
     margin-right: 30px;
 }
 
 
 
 
-.banner-middle-right .search-button{
-    width:386px ;
+.banner-middle-right .search-button {
+    width: 386px;
     height: 37px;
     border: 1px solid #ff9d39;
     margin: 0 auto;
@@ -361,17 +362,17 @@
     text-align: center;
     line-height: 37px;
     border-radius: 10px 10px;
-    
+
 }
 
 
-.banner-middle-right .search-button span{
+.banner-middle-right .search-button span {
     margin-left: 10px;
     color: #fff;
 }
 
 
-.banner-middle-right .banner-middle-footer{
+.banner-middle-right .banner-middle-footer {
     height: 28px;
     width: 444px;
     margin: 0 auto;
@@ -379,13 +380,13 @@
 }
 
 
-.banner-middle-footer .banner-middle-footer-left{
+.banner-middle-footer .banner-middle-footer-left {
     float: left;
     font-size: 14px;
     color: #999;
 }
 
-.banner-middle-footer .banner-middle-footer-right{
+.banner-middle-footer .banner-middle-footer-right {
     float: right;
     font-size: 14px;
     color: #999;
@@ -393,16 +394,16 @@
 
 
 /* 4.菜单 */
-.menu{
+.menu {
     height: 170px;
     width: 100%;
 }
 
-.menu{
+.menu {
     text-align: center;
 }
 
-.menu .each{
+.menu .each {
     float: left;
     width: 122px;
     height: 88px;
@@ -414,20 +415,20 @@
     /* border-right:3px solid #eff5fe ; */
 }
 
-.menu .each:hover i{
-color: rgb(117, 171, 251);
+.menu .each:hover i {
+    color: rgb(117, 171, 251);
 }
 
-.menu .each i{
+.menu .each i {
     display: block;
     text-align: center;
     font-size: 50px;
     color: #5296fa;
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 /* 5.图片 */
-.photo1 img{
+.photo1 img {
     float: left;
     width: 730px;
     height: 195px;
@@ -439,51 +440,51 @@ color: rgb(117, 171, 251);
 
 /* 6.展示 */
 
-.show{
+.show {
     height: 680px;
     width: 100%;
 }
 
-.show-top{
-margin-top: 35px;
-height: 42px;
-width: 100%;
-border-bottom: 2px solid #dedede;
+.show-top {
+    margin-top: 35px;
+    height: 42px;
+    width: 100%;
+    border-bottom: 2px solid #dedede;
 
 }
 
-.show-top .show-top-left{
+.show-top .show-top-left {
     float: left;
     width: 90px;
     height: 40px;
     border-bottom: 2px solid #3b99fc;
-    
+
 }
 
-.show-top .show-top-left h2{
+.show-top .show-top-left h2 {
     font-size: 18px;
     font-weight: 400;
-    color:#3b99fc ;
+    color: #3b99fc;
 }
 
 
-.show-top .show-top-right{
+.show-top .show-top-right {
     float: right;
-  
+
 }
 
-.show-top .show-top-right span{
-   font-size: 16px;
-   color: #999;
+.show-top .show-top-right span {
+    font-size: 16px;
+    color: #999;
 }
 
 
 
-.show-bottom{
+.show-bottom {
     height: 632px;
 }
 
-.show-bottom-small{
+.show-bottom-small {
     float: left;
     width: 356px;
     height: 305px;
@@ -493,12 +494,12 @@ border-bottom: 2px solid #dedede;
     box-sizing: border-box;
 }
 
-.show-bottom-small img{
+.show-bottom-small img {
     width: 100%;
     height: 198px;
 }
 
-.show-bottom-small p{
+.show-bottom-small p {
     margin-top: 20px;
     font-size: 18px;
     margin-left: 12px;
@@ -509,34 +510,34 @@ border-bottom: 2px solid #dedede;
     overflow: hidden;
 }
 
-.show-bottom-small p:hover{
+.show-bottom-small p:hover {
     color: #3b99fc;
 }
 
-.show-bottom-small span{
+.show-bottom-small span {
     font-size: 20px;
     color: #ff8201;
     margin-left: 12px;
-   padding-top: 20px;
+    padding-top: 20px;
 }
 
 
 
 /* 7.售后 */
-.sale{
+.sale {
     height: 374px;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 70px;
 }
 
-.sale .sale-top{
+.sale .sale-top {
     float: left;
     width: 100%;
     height: 50px;
 }
 
-.sale .sale-top .one{
+.sale .sale-top .one {
     float: left;
     width: 484px;
     height: 50px;
@@ -546,12 +547,12 @@ border-bottom: 2px solid #dedede;
     margin-right: 12px;
 }
 
-.sale .sale-top .one a span{
+.sale .sale-top .one a span {
     color: #fff;
     font-size: 18px;
 }
 
-.sale .sale-top .two{
+.sale .sale-top .two {
     float: left;
     width: 484px;
     height: 50px;
@@ -563,38 +564,38 @@ border-bottom: 2px solid #dedede;
     margin-right: 12px;
 }
 
-.sale .sale-bottom{
+.sale .sale-bottom {
     float: left;
     height: 322px;
     width: 99%;
     border: 2px solid #dedede;
 }
 
-.sale-bottom .one{
+.sale-bottom .one {
     float: left;
     width: 755px;
     height: 100%;
     box-sizing: border-box;
-    
+
 }
 
 
 
-.sale-bottom .one li p{
+.sale-bottom .one li p {
     width: 550px;
     float: left;
     font-size: 16px;
     /* line-height: 15px; */
     margin-left: 40px;
-     margin-top: 30px;
-     white-space: nowrap;
-     text-overflow: ellipsis;
-     overflow: hidden;
-     color: #333;
+    margin-top: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #333;
 }
 
 
-.sale-bottom .one span{
+.sale-bottom .one span {
     float: right;
     font-size: 16px;
     margin-right: 40px;
@@ -604,21 +605,21 @@ border-bottom: 2px solid #dedede;
 
 
 
-.sale-bottom .two li p{
+.sale-bottom .two li p {
     width: 550px;
     float: left;
     font-size: 16px;
     /* line-height: 15px; */
     margin-left: 40px;
-     margin-top: 30px;
-     white-space: nowrap;
-     text-overflow: ellipsis;
-     overflow: hidden;
-     color: #333;
+    margin-top: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #333;
 }
 
 
-.sale-bottom .two span{
+.sale-bottom .two span {
     float: right;
     font-size: 16px;
     margin-right: 40px;
@@ -629,7 +630,7 @@ border-bottom: 2px solid #dedede;
 
 
 /* 8.底部 */
-.footer{
+.footer {
     background-color: #f8f8f8;
     height: 245px;
 }
@@ -639,7 +640,8 @@ border-bottom: 2px solid #dedede;
     width: 621px;
     height: 245px;
 }
-.footer .footer-left .footer-left-top h2{
+
+.footer .footer-left .footer-left-top h2 {
     font-size: 18px;
     font-weight: 300;
     color: #333;
@@ -648,11 +650,11 @@ border-bottom: 2px solid #dedede;
     margin-bottom: 26px;
 }
 
-.footer-left-bottom{
+.footer-left-bottom {
     margin-left: 68px;
 }
 
-.footer .footer-left .footer-left-bottom img{
+.footer .footer-left .footer-left-bottom img {
     width: 248px;
     height: 40px;
     margin-right: 12px;
@@ -666,11 +668,11 @@ border-bottom: 2px solid #dedede;
     float: right;
     width: 865px;
     height: 245px;
-    
-  
+
+
 }
 
-.footer-right .footer-right-top{
+.footer-right .footer-right-top {
     float: left;
     margin-top: 47px;
     height: 40px;
@@ -678,52 +680,52 @@ border-bottom: 2px solid #dedede;
     color: #333;
 }
 
-.footer-right .footer-right-top span{
+.footer-right .footer-right-top span {
     font-size: 16px;
     margin-top: 25px;
-    
+
 }
 
-.footer-right .footer-right-top .one{
-margin-left: 9px;
+.footer-right .footer-right-top .one {
+    margin-left: 9px;
 }
 
-.footer-right .footer-right-top .two{
-margin-left: 21px;
+.footer-right .footer-right-top .two {
+    margin-left: 21px;
 }
 
-.footer-right .footer-right-top .three{
+.footer-right .footer-right-top .three {
     margin-left: 38px;
 }
 
-.footer-right .footer-right-top .four{
+.footer-right .footer-right-top .four {
     margin-left: 65px;
 }
 
-.footer-right .footer-right-bottom img{
+.footer-right .footer-right-bottom img {
     float: left;
     width: 100px;
     height: 100px;
 }
 
 
-.footer-right .footer-right-bottom  .one{
+.footer-right .footer-right-bottom .one {
     margin-left: 19px;
 }
 
-.footer-right .footer-right-bottom  .two{
+.footer-right .footer-right-bottom .two {
     margin-left: 56px;
 }
 
-.footer-right .footer-right-bottom  .three{
+.footer-right .footer-right-bottom .three {
     margin-left: 56px;
 }
 
-.footer-right .footer-right-bottom  .four{
+.footer-right .footer-right-bottom .four {
     margin-left: 56px;
 }
 
-.footer-right .zui{
+.footer-right .zui {
     float: right;
     width: 230px;
     height: 100px;
@@ -731,25 +733,25 @@ margin-left: 21px;
     margin-left: 20px;
     border: 2px solid #e6e6e6;
     box-sizing: border-box;
-    border
+    /* border */
 }
 
-.footer-right .zui p{
+.footer-right .zui p {
     font-size: 14px;
-    margin-top:20px ;
+    margin-top: 20px;
     margin-left: 20px;
     line-height: 20px;
 }
 
 
 /* 9.底部商标 */
-.brand{
+.brand {
     background-color: #666;
-    height:100px ;
-    color:#c1c1c1 ;
+    height: 100px;
+    color: #c1c1c1;
     /* overflow: hidden; */
-   
-    
+
+
 }
 
 .brand .middle {
@@ -758,4 +760,3 @@ margin-left: 21px;
     line-height: 40px;
     margin-top: 22px;
 }
-
